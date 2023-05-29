@@ -1,0 +1,129 @@
+.course-sec {
+  max-width: 1200px;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.course-top p {
+  padding-top: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 479px;
+  text-align: center;
+  color: #584f49;
+}
+.course-top h2 {
+  font-weight: 1100;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  color: #1c0a0a;
+}
+.course_layout {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 2rem;
+  border-radius: 14px;
+}
+
+.course-item {
+  padding: 10px;
+  cursor: pointer;
+}
+.course-item {
+  transition: all 0.5s ease-in-out;
+  border-radius: 14px;
+}
+.course-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.07);
+}
+.course-item h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  width: 312px;
+  padding-top: 1.5rem;
+  line-height: 30px;
+  color: #1c0a0a;
+}
+.course-item p {
+  font-weight: 400;
+  padding-top: 2rem;
+  font-size: 14px;
+  line-height: 24px;
+  width: 312px;
+  color: #584f49;
+}
+.rating-div {
+  display: flex;
+  gap: 10px;
+}
+.course-item article img {
+  object-fit: contain;
+  width: 70px;
+}
+.course-item article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+.p_san {
+  transition: 0.5s ease-in-out;
+  padding-right: 2rem;
+}
+.p_san:hover {
+  color: #ff9f66;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.course-btn {
+  padding: 10px;
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  margin-top: 8.5rem;
+}
+.course-btn:hover {
+  color: white;
+  border: #f9b086 2px solid;
+  background: #f26d20;
+  border-radius: 5px;
+  transition: 0.5s ease-in-out;
+}
+@media screen and (max-width: 600px) {
+  .course-top h2 {
+    font-size: 25px;
+  }
+  .course-top p {
+    width: 339px;
+  }
+  .course-item img {
+    width: 300px;
+  }
+  .course-item p {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .course-item img {
+    width: 270px;
+    padding-left: 2rem;
+  }
+  .course-item h3 {
+    padding-left: 2rem;
+  }
+  .course-item p {
+    padding-left: 2rem;
+  }
+}

@@ -1,0 +1,142 @@
+.form-sec {
+  margin-top: 9rem;
+  width: 100%;
+  position: relative;
+}
+.translate-bg {
+  position: absolute;
+  width: 1170px;
+  height: 605px;
+  z-index: -1;
+  left: 10%;
+  margin-top: 50px;
+}
+.form-main {
+  display: flex;
+  flex-direction: row;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.form-side_note {
+  text-align: left;
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 2rem;
+}
+.form-side_note h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  padding-bottom: 3rem;
+  color: #1c0a0a;
+}
+.form-side_note p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  width: 484px;
+  color: #584f49;
+}
+.form main {
+  display: flex;
+  align-items: center;
+}
+.form main p {
+  width: 3000px;
+  padding-right: 15px;
+  font-size: 16px;
+  padding-top: 1.6rem;
+}
+
+.form {
+  background: #ffffff;
+  box-shadow: 0px 80.6px 105.701px rgba(51, 51, 51, 0.1);
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 564px;
+}
+.form input {
+  background: #fff;
+  border: #cfcfcf 2px solid;
+  width: 484px;
+  margin-top: 2rem;
+}
+textarea {
+  outline: none;
+  width: 484px;
+  margin-top: 2rem;
+}
+.form input::placeholder {
+  color: #584f49;
+}
+@media screen and (max-width: 900px) {
+  .form-main {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .translate-bg {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .form-side_note {
+    padding-left: 3rem;
+  }
+  .form-side_note h2 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    width: 295px;
+    /* margin-left: 7rem; */
+  }
+  .form-side_note p {
+    width: 317px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .form {
+    width: 339px;
+  }
+  textarea {
+    width: 293px;
+  }
+  .form input {
+    width: 293px;
+  }
+  .check p {
+    font-size: 5px;
+  }
+  .translate-bg {
+    top: 25%;
+  }
+}
+@media screen and (max-width: 340px) {
+  .form-side_note h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .form-side_note p {
+    width: 300px;
+  }
+  .form {
+    width: 300px;
+  }
+  .form input {
+    width: 260px;
+  }
+  textarea {
+    width: 260px;
+  }
+}

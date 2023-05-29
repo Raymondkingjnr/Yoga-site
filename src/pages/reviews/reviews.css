@@ -1,0 +1,123 @@
+.review-sec {
+  margin-top: 10rem;
+  width: 100%;
+  position: relative;
+}
+.ellipse-img {
+  position: absolute;
+  left: 80%;
+  width: 50px;
+  bottom: 30%;
+}
+.pattern-img {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+.vector-img {
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+.review-items {
+  max-width: 600px;
+  margin: auto;
+  /* display: flex;
+  flex-direction: flex; */
+  justify-content: center;
+  align-items: center;
+}
+.review-item {
+  padding-bottom: 3rem;
+  text-align: center;
+}
+.review-img {
+  padding-left: 6rem;
+}
+.review-img img {
+  padding-left: 5.5rem;
+}
+.review-img p {
+  padding-bottom: 2rem;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  width: 400px;
+  text-align: center;
+  color: #584f49;
+  /* padding-left: 20px; */
+}
+.review-item h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #1c0a0a;
+  padding-bottom: 0.5rem;
+}
+.review-item h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #584f49;
+}
+.slick-dots li button:before {
+  color: rgb(198, 198, 198);
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff9f66;
+}
+@media screen and (max-width: 600px) {
+  .ellipse-img,
+  .pattern-img,
+  .vector-img {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .review-items {
+    max-width: 440px;
+    margin: auto;
+  }
+  .review-img {
+    padding-left: 0;
+  }
+  .review-img p {
+    width: 390px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    padding-top: 0;
+    padding-left: 2rem;
+  }
+  .review-img img {
+    padding-left: 6rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .review-img p {
+    padding-left: 3rem;
+    width: 360px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .review-img p {
+    padding-left: 3rem;
+    width: 320px;
+  }
+  .review-img img {
+    padding-left: 4rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .review-img p {
+    padding-left: 1rem;
+    width: 300px;
+  }
+  .review-img img {
+    padding-left: 3rem;
+  }
+}

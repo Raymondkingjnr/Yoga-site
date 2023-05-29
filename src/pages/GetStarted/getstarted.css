@@ -1,0 +1,120 @@
+.getstarted-sec {
+  width: 100%;
+  padding: 20px;
+  background: rgb(236, 236, 236);
+  position: relative;
+}
+.start-orange-arc img {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+.start-green-arc img {
+  position: absolute;
+  width: 20px;
+  bottom: 15%;
+  left: 30px;
+}
+.getstarted-sec article {
+  display: flex;
+  flex-direction: column;
+  padding: 10rem;
+  gap: 5rem;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: -280px auto 15px auto;
+}
+.yoga-img img {
+  object-fit: contain;
+}
+.started-text h2 {
+  font-style: normal;
+  font-weight: bolder;
+  width: 440px;
+  font-size: 50px;
+  line-height: 50px;
+  color: #1c0a0a;
+}
+.line {
+  width: 50px;
+  height: 3px;
+  background: #f8965d;
+  margin-bottom: 2rem;
+}
+
+.getstarted-sec main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1100px;
+}
+.getstarted-sec main aside {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.getstarted-sec main aside p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #584f49;
+  width: 359px;
+  padding-bottom: 2.5rem;
+  padding-left: 0.5rem;
+}
+.start-btn {
+  border-radius: 0px;
+  padding: 10px;
+  width: 100px;
+}
+.getstarted-sec main aside img {
+  width: 50px;
+  object-fit: contain;
+}
+@media screen and (max-width: 900px) {
+  .yoga-img img {
+    width: 700px;
+  }
+  .getstarted-sec main {
+    flex-direction: column;
+  }
+  .started-text {
+    width: 600px;
+    padding-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .getstarted-sec main aside img {
+    display: none;
+  }
+  .start-green-arc {
+    right: 20%;
+    bottom: 30%;
+    position: absolute;
+  }
+  .start-orange-arc {
+    display: none;
+  }
+  .yoga-img img {
+    width: 350px;
+  }
+  .started-text {
+    width: 300px;
+  }
+  .started-text h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .getstarted-sec main aside {
+    width: 300px;
+  }
+  .getstarted-sec main aside p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    width: 250px;
+  }
+}
