@@ -3,7 +3,7 @@ import { AiOutlineClose } from "react-icons/ai";
 function MobileView({ closeMenu }) {
   return (
     <div className="mobile-nav">
-      <button type="button" className="btn close-btn" onClick={closeMenu}>
+      <button type="button" className=" close-btn" onClick={closeMenu}>
         <AiOutlineClose />
       </button>
       <ul className="mobile-nav-links">

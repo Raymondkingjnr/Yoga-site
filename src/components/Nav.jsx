@@ -29,7 +29,7 @@ function Nav() {
           </li>
         </ul>
       </main>
-      <aside>
+      <aside className="aside-btn">
         <button type="button" className="btn">
           sign in
         </button>
@@ -37,9 +37,12 @@ function Nav() {
           sign up
         </button>
       </aside>
+
+      {/* responsive bar */}
+
       <button
         type="button"
-        className="btn open-nav"
+        className=" open-nav"
         onClick={() => setOpenNav(!openNav)}
       >
         <RxHamburgerMenu />

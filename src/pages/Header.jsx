@@ -3,6 +3,7 @@ import Nav from "../components/Nav";
 import Hero from "../components/Hero";
 import HeaderLayout from "../components/HeaderLayout";
 import BigCircle from "../components/BigCircle";
+
 function Header() {
   return (
     <div>
